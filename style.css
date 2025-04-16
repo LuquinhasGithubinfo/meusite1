@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #000000, #0056b3);
+    color: #fff;
+    scroll-behavior: smooth;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    padding: 100px 20px;
+    background: #000000cc;
+    animation: fadeInDown 1.5s ease-out;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  header .btn {
+    background-color: #00ffcc;
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  header .btn:hover {
+    background-color: #00c2a6;
+  }
+  
+  .servicos {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #ffffff0f;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .card {
+    background: #ffffff1a;
+    padding: 30px;
+    border-radius: 20px;
+    width: 280px;
+    backdrop-filter: blur(10px);
+    transition: transform 0.4s ease, box-shadow 0.4s;
+    text-align: center;
+  }
+  
+  .card i {
+    margin-bottom: 15px;
+    color: #00ffcc;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 255, 204, 0.3);
+  }
+  
+  .contato {
+    padding: 120px 20px 80px;
+    text-align: center;
+    background-color: #000000cc;
+  }
+  
+  .contato .btn {
+    background-color: #ff0066;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-top: 60px;
+    display: inline-block;
+  }
+  
+  .contato .btn:hover {
+    background-color: #cc0052;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #000;
+    font-size: 0.9em;
+    color: #888;
+  }
+  
+  @keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-30px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
